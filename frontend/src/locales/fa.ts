@@ -1,0 +1,163 @@
+const fa = {
+  app: {
+    title: "سامانه مدیریت شکایات مشتریان",
+    shortTitle: "مدیریت شکایات",
+    description: "پنل مدیریت و پیگیری درخواست‌های مشتریان",
+  },
+
+  navigation: {
+    dashboard: "داشبورد",
+    complaints: "شکایات",
+    complaintCreate: "ثبت شکایت",
+    complaintList: "لیست شکایات",
+    settings: "تنظیمات",
+  },
+
+  header: {
+    searchPlaceholder: "جستجو در سامانه...",
+    notifications: "اعلان‌ها",
+    profile: "حساب کاربری",
+    administrator: "مدیر سامانه",
+  },
+
+  complaint: {
+    title: "شکایت",
+    createTitle: "ثبت شکایت جدید",
+    createDescription: "اطلاعات مربوط به شکایت مشتری را وارد کنید.",
+    listTitle: "لیست شکایات",
+    listDescription: "مشاهده و مدیریت شکایات ثبت‌شده",
+    detailsTitle: "جزئیات شکایت",
+
+    details: {
+            title: "جزئیات شکایت",
+            complaintNumber: "شماره شکایت",
+            complainantInformation: "اطلاعات مشتری",
+            complaintInformation: "اطلاعات شکایت",
+            email: "پست الکترونیکی",
+            createdAt: "تاریخ ثبت",
+            attachmentCount: "تعداد فایل‌ها",
+            downloadFile: "دانلود فایل",
+            downloadAll: "دانلود همه فایل‌ها",
+            downloading: "در حال دانلود...",
+            downloadingAll: "در حال دانلود فایل‌ها...",
+            noAttachments: "فایلی برای این شکایت ثبت نشده است.",
+            kilobyte: "کیلوبایت",
+            megabyte: "مگابایت",
+            invalidId: "شناسه شکایت معتبر نیست.",
+            fetchError: "دریافت اطلاعات شکایت با خطا مواجه شد.",
+            notFound: "شکایتی یافت نشد.",
+            downloadError: "دانلود فایل با خطا مواجه شد.",
+            downloadSomeFailed: "دانلود بعضی از فایل‌ها ناموفق بود.",
+            backToList: "بازگشت به لیست شکایات",
+        },
+
+    form: {
+      customerInformation: "اطلاعات مشتری",
+      projectInformation: "اطلاعات پروژه",
+      complaintInformation: "اطلاعات شکایت",
+      attachmentInformation: "مدارک و مستندات",
+      submitDescription: "لطفاً اطلاعات را با دقت تکمیل کنید.",
+    },
+
+    fields: {
+      fullName: "نام و نام خانوادگی",
+      organizationName: "نام شرکت / سازمان",
+      email: "پست الکترونیکی",
+      mobile: "شماره همراه",
+      landline: "تلفن ثابت",
+      projectTitle: "عنوان پروژه",
+      serviceType: "نوع خدمات",
+      dissatisfactionReason: "علت نارضایتی",
+      description: "شرح شکایت",
+      proposedSolution: "راهکار پیشنهادی",
+      attachments: "فایل‌های پیوست",
+    },
+
+    placeholders: {
+      fullName: "نام و نام خانوادگی را وارد کنید",
+      organizationName: "نام شرکت یا سازمان را وارد کنید",
+      email: "example@domain.com",
+      mobile: "09120000000",
+      landline: "03100000000",
+      projectTitle: "عنوان پروژه را وارد کنید",
+      serviceType: "نوع خدمات را انتخاب کنید",
+      dissatisfactionReason: "علت نارضایتی را انتخاب کنید",
+      description: "شرح کامل شکایت را بنویسید...",
+      proposedSolution: "در صورت تمایل، راهکار پیشنهادی را وارد کنید",
+      search: "جستجو بر اساس نام، شرکت یا پروژه...",
+    },
+
+    attachment: {
+      select: "انتخاب فایل",
+      dragDrop: "فایل‌ها را اینجا بکشید یا انتخاب کنید",
+      formats: "PDF، تصاویر، Word و Excel",
+      maxFiles: "حداکثر ۱۰ فایل",
+      maxSize: "حداکثر حجم هر فایل ۱۰ مگابایت",
+      selectedFiles: "فایل‌های انتخاب‌شده",
+      remove: "حذف فایل",
+    },
+
+    table: {
+      trackingCode: "کد پیگیری",
+      customer: "مشتری",
+      organization: "شرکت / سازمان",
+      project: "پروژه",
+      serviceType: "نوع خدمات",
+      registrationDate: "تاریخ ثبت",
+      actions: "عملیات",
+    },
+
+    status: {
+      new: "جدید",
+      reviewing: "در حال بررسی",
+      resolved: "رسیدگی‌شده",
+    },
+  },
+
+  common: {
+    save: "ثبت اطلاعات",
+    submit: "ارسال شکایت",
+    cancel: "انصراف",
+    close: "بستن",
+    delete: "حذف",
+    search: "جستجو",
+    clear: "پاک کردن",
+    back: "بازگشت",
+    view: "مشاهده",
+    loading: "در حال بارگذاری...",
+    noData: "اطلاعاتی برای نمایش وجود ندارد.",
+    required: "تکمیل این فیلد الزامی است.",
+    optional: "اختیاری",
+    yes: "بله",
+    no: "خیر",
+    confirm: "تأیید",
+  },
+
+  messages: {
+    createSuccess: "شکایت با موفقیت ثبت شد.",
+    createError: "ثبت شکایت با خطا مواجه شد.",
+    deleteSuccess: "شکایت با موفقیت حذف شد.",
+    deleteError: "حذف شکایت با خطا مواجه شد.",
+    loadError: "دریافت اطلاعات با خطا مواجه شد.",
+    deleteConfirmation: "آیا از حذف این شکایت اطمینان دارید؟",
+    noComplaints: "هنوز شکایتی ثبت نشده است.",
+    duplicateFile: "این فایل قبلاً انتخاب شده است.",
+    fileTooLarge: "حجم فایل بیشتر از حد مجاز است.",
+    maxFilesReached: "حداکثر تعداد فایل‌های مجاز انتخاب شده است.",
+  },
+
+  validation: {
+    fullNameRequired: "نام و نام خانوادگی الزامی است.",
+    organizationRequired: "نام شرکت یا سازمان الزامی است.",
+    mobileRequired: "شماره همراه الزامی است.",
+    projectRequired: "عنوان پروژه الزامی است.",
+    serviceTypeRequired: "انتخاب نوع خدمات الزامی است.",
+    reasonRequired: "انتخاب علت نارضایتی الزامی است.",
+    descriptionRequired: "شرح شکایت الزامی است.",
+    invalidEmail: "فرمت پست الکترونیکی معتبر نیست.",
+    maxFiles: "حداکثر ۱۰ فایل مجاز است.",
+    maxFileSize: "حجم هر فایل نباید بیشتر از ۱۰ مگابایت باشد.",
+  },
+};
+
+export default fa;

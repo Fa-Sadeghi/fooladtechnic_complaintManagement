@@ -1,0 +1,52 @@
+:root {
+    --color-primary: #172b4d;
+    --color-primary-hover: #223d66;
+    --color-secondary: #16a6a1;
+    --color-secondary-hover: #128b87;
+
+    --color-background: #f5f7fa;
+    --color-surface: #ffffff;
+    --color-surface-muted: #f8fafc;
+
+    --color-text-primary: #253247;
+    --color-text-secondary: #718096;
+    --color-text-muted: #a0aec0;
+
+    --color-border: #e7ecf2;
+    --color-border-focus: #16a6a1;
+
+    --color-success: #16a36a;
+    --color-warning: #e5a126;
+    --color-danger: #dc5b63;
+    --color-info: #4385c5;
+
+    --font-family: IRANSansWeb, sans-serif !important;
+    --font-size-xs: 11px;
+    --font-size-sm: 12px;
+    --font-size-base: 13px;
+    --font-size-md: 14px;
+    --font-size-lg: 16px;
+    --font-size-xl: 19px;
+    --font-size-2xl: 22px;
+
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 20px;
+    --space-6: 24px;
+    --space-8: 32px;
+
+    --radius-sm: 6px;
+    --radius-md: 9px;
+    --radius-lg: 12px;
+    --radius-xl: 16px;
+
+    --shadow-sm: 0 1px 3px rgba(20, 35, 60, 0.05);
+    --shadow-md: 0 4px 14px rgba(20, 35, 60, 0.07);
+
+    --sidebar-width: 240px;
+    --header-height: 64px;
+
+    --transition: 0.2s ease;
+}
